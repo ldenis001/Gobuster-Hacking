@@ -31,5 +31,14 @@ The primary objective of this lab was to:
 
 The following command was executed to enumerate directories on the target:
 
+## Feel free to contribute or suggest improvements to this project!
+### Steps to Use
+1. Save this content into a file named `README.md` in your project folder.
+2. Push the project folder to your GitHub repository:
+   ```bash
+   git add README.md
+   git commit -m "Add README for Gobuster Ethical Hacking Lab"
+   git push origin main
+
 ```bash
 gobuster -u http://fakebank.thm -w wordlist.txt dir
